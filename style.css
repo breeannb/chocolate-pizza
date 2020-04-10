@@ -1,15 +1,70 @@
-* {
 
+.logo-section { 
+    display: flex;
 }
 
-.social-media-icons {
+header { 
+    display:flex;
+    justify-content: space-around;
+}
 
+h1 { 
+    font-family: sans-serif; 
+    font-size: 50px; 
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer { 
+    font-size: 12px; 
+    
+}
+
+ul {
+    display: flex; 
+    flex-wrap: wrap-reverse;
+    background-image: url(https://github.com/alchemycodelab/fsjs-foundations-march-2020/blob/master/curriculum/class-10/LAB-10/LAB-10a-chocolate-pizza/lab-assets/list-bg.png?raw=true);
+    background-repeat: no-repeat;
+    justify-content: space-around;
+}
+
+li {
+    font-family: chalkboard;
+    font-size: 20px;
+    /* content: '☐'; */
+    list-style-type: square;
+    
+}
+
+.left-ingredients { 
+    text-align: left;
 }
 
 
-display: 
+.right-ingredients { 
+    text-align: right;
+    list-style-position: inside;
+}
+
+.right-ingredients-slash {
+    text-align: right;
+    list-style-position: inside;
+    text-decoration: line-through;
+}
+
+footer { 
+    display:flex;
+    justify-content: space-around;
+}
+
+
+/* display: 
 flex;     
 flex-wrap: wrap;     
 justify-content: space-between;     
 align-items: center;     
-height: 500px;
+height: 500px; */
+
+/* a change for the test */
