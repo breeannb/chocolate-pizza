@@ -1,0 +1,90 @@
+
+.logo-section { 
+    display: flex;
+}
+
+header { 
+    display:flex;
+    justify-content: space-around;
+}
+
+h1 { 
+    font-family: sans-serif; 
+    font-size: 50px; 
+}
+
+.delicious { 
+    font-family: cursive;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: fixed;
+    position: sticky;
+}
+
+ul {
+    display: flex; 
+    flex-wrap: wrap-reverse;
+    /* background-image: url(https://github.com/alchemycodelab/fsjs-foundations-march-2020/blob/master/curriculum/class-10/LAB-10/LAB-10a-chocolate-pizza/lab-assets/list-bg.png?raw=true); */
+    background-repeat: no-repeat;
+    justify-content: space-around;
+}
+
+.notepad-image { 
+    position: absolute; 
+    left: 100px;
+    right: 100px; 
+    z-index: -1;
+}
+
+li {
+    font-family: chalkboard;
+    font-size: 20px;
+    /* content: '☐'; */
+    list-style-type: square;
+    
+}
+
+.left-ingredients { 
+    text-align: left;
+}
+
+p { 
+    text-align: center;
+}
+
+.right-ingredients { 
+    text-align: right;
+    list-style-position: inside;
+}
+
+.right-ingredients-slash {
+    text-align: right;
+    list-style-position: inside;
+    text-decoration: line-through;
+    z-index: -1;
+}
+
+footer { 
+    display:flex;
+    justify-content: space-around;
+    font-size: 12px;
+}
+
+button{
+    background-color: brown;
+    text-decoration-color: white;
+}
+
+
+
+
+/* display: 
+flex;     
+flex-wrap: wrap;     
+justify-content: space-between;     
+align-items: center;     
+height: 500px; */
+
+/* a change for the test */
