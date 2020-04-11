@@ -1,6 +1,4 @@
-* { 
-    
-}
+
 .logo-section { 
     display: flex;
 }
@@ -39,6 +37,7 @@ ul {
     right: 100px; 
     z-index: -1;
 }
+
 li {
     font-family: chalkboard;
     font-size: 20px;
