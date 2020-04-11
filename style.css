@@ -17,11 +17,6 @@ p {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-footer { 
-    font-size: 12px; 
-    
-}
-
 ul {
     display: flex; 
     flex-wrap: wrap-reverse;
@@ -42,6 +37,9 @@ li {
     text-align: left;
 }
 
+p { 
+    text-align: center;
+}
 
 .right-ingredients { 
     text-align: right;
@@ -57,7 +55,15 @@ li {
 footer { 
     display:flex;
     justify-content: space-around;
+    font-size: 12px;
 }
+
+button{
+    background-color: brown;
+    text-decoration-color: white;
+}
+
+
 
 
 /* display: 
