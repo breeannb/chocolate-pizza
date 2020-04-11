@@ -1,4 +1,6 @@
-
+* { 
+    
+}
 .logo-section { 
     display: flex;
 }
@@ -13,18 +15,30 @@ h1 {
     font-size: 50px; 
 }
 
+.delicious { 
+    font-family: cursive;
+}
+
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: fixed;
+    position: sticky;
 }
 
 ul {
     display: flex; 
     flex-wrap: wrap-reverse;
-    background-image: url(https://github.com/alchemycodelab/fsjs-foundations-march-2020/blob/master/curriculum/class-10/LAB-10/LAB-10a-chocolate-pizza/lab-assets/list-bg.png?raw=true);
+    /* background-image: url(https://github.com/alchemycodelab/fsjs-foundations-march-2020/blob/master/curriculum/class-10/LAB-10/LAB-10a-chocolate-pizza/lab-assets/list-bg.png?raw=true); */
     background-repeat: no-repeat;
     justify-content: space-around;
 }
 
+.notepad-image { 
+    position: absolute; 
+    left: 100px;
+    right: 100px; 
+    z-index: -1;
+}
 li {
     font-family: chalkboard;
     font-size: 20px;
@@ -50,6 +64,7 @@ p {
     text-align: right;
     list-style-position: inside;
     text-decoration: line-through;
+    z-index: -1;
 }
 
 footer { 
